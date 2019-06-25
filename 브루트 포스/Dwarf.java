@@ -14,9 +14,9 @@ public class Dwarf{
     for(int i = 0; i < 9; i++){
       height[i] = Integer.parseInt(br.readLine());
     }
-    //오름차순 배열
+    //오름차순 배열. Arrays class의 stream method 이용해서 int배열을 정렬할 수 있다. 
     Arrays.sort(height);
-
+    //Arrays class의 stream method 이용해서 int배열의 전체 합도 구할 수 있다. 
     int total = Arrays.stream(height).sum();
     int sum = 0;
 
