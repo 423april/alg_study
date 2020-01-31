@@ -6,7 +6,7 @@ int main(){
 	int sum = 0;
 	
 	scanf("%d", &T);
-	for(int i = 1; i < T; i++){
+	for(int i = 1; i <= T; i++){
 		printf("#%d ", i);
 		for(int j = 0; j < 10; j++){
 			scanf("%d ", &num);
