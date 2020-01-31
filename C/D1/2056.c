@@ -52,7 +52,7 @@ int main(){
 				}
 				break;
 		}
-
+		//how to print with zero padding
 		printf("%04d/%02d/%02d\n", y, m, d);
 	}
 }//end main
